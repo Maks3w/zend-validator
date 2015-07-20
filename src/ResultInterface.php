@@ -13,7 +13,7 @@ namespace Zend\Validator;
  * This interface provide methods for to know the result of a validation and the reasons when the result is not valid
  *
  * This interface resolve the following questions:
- *    - Is the result valid?
+ *    - Is the result valid or invalid?
  *    - If not, Why is not valid?
  */
 interface ResultInterface
@@ -24,6 +24,13 @@ interface ResultInterface
      * @return bool
      */
     public function isValid();
+
+    /**
+     * Is the validation result invalid?
+     *
+     * @return bool
+     */
+    public function isNotValid();
 
     /**
      * Returns the list of error violations in a machine readable format.
