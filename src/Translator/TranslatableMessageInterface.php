@@ -11,6 +11,8 @@ namespace Zend\Validator\Translator;
 
 /**
  * This interface provide methods for extract the translatable parts of a message.
+ *
+ * The translatable parts of a message are those parts allow to consumption by ICU message formatters.
  */
 interface TranslatableMessageInterface
 {
