@@ -40,7 +40,7 @@ interface ResultInterface
     public function getErrorCodes();
 
     /**
-     * Get the error messages (with the variables replaced) associated with the validation result
+     * Get the error messages associated with the validation result
      *
      * @return Translator\TranslatableMessageInterface[]
      */

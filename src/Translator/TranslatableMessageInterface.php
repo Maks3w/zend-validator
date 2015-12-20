@@ -38,7 +38,7 @@ interface TranslatableMessageInterface
     public function getTranslationDomain();
 
     /**
-     * Returns the message without translation and with the placeholders replaced by the variables.
+     * Returns the message template with the placeholders replaced by the variables.
      *
      * @return string
      */
